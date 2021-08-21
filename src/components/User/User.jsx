@@ -1,4 +1,3 @@
-// import React from 'react';
 import React from "react";
 
 import "./User.css";
@@ -7,7 +6,7 @@ import "./User.css";
 const User = (props) => {
 
     return (
-        <div className="single-user ">
+        <div className="single-user">
             <div className="user-img">
                 <img src={props.userData.picture.thumbnail} alt="" />
             </div>
