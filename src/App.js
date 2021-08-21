@@ -10,7 +10,6 @@ import "./App.css";
 
 function App() {
   const [isListView, setIsListView] = useState(true);
-  console.log("App: ", isListView);
   const onLayoutChange = () => setIsListView(!isListView);
   return (
     <Fragment>
